@@ -1,0 +1,26 @@
+{
+    "name": "@bloks/numbers",
+    "version": "23.0.2",
+    "author": "jafri",
+    "module": "dist/api.esm.js",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "start": "tsdx watch",
+        "build": "tsdx build",
+        "test": "tsdx test",
+        "prepare": "tsdx build"
+    },
+    "devDependencies": {
+        "bignumber.js": "^9.0.1"
+    },
+    "dependencies": {
+        "@jafri/numbro": "^2.3.3",
+        "bignumber.js": "^9.0.1",
+        "dayjs": "^1.8.18"
+    }
+}
